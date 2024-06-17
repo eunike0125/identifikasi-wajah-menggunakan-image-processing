@@ -1,0 +1,13 @@
+list library :
+pip install opencv-python
+pip install opencv-contrib-python --user
+pip install pillow
+pip install numpy
+pip3 install mysql-connector-python
+
+step :
+1. buat folder "data" di folder yang sama dengan file utama lainya
+2. open "gui_input.py", kemudian menginput informasi,
+3. simpan database, 'menyimpan informasi dan akan membuat sebuah file classifier.xml untuk fitur wajah yang di deteksi'
+4. simpan gambar, 'akan tersimpan di folder "data"yang telah dibuat'
+5. kemudian, prediksi 'setelah sesuai dengan yang dideteksi, enter untuk mengetahui informasi lebih lengkap'
